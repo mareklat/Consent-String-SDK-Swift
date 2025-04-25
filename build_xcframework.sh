@@ -7,7 +7,7 @@ set -e
 PROJECT_NAME="Consent String SDK Swift.xcodeproj"
 SCHEME_NAME="Consent String SDK Swift"
 CONFIGURATION="Release"
-FRAMEWORK_NAME="Consent_String_SDK_Swift" # Adjusted framework name based on build logs
+FRAMEWORK_NAME="Consent_String_SDK_Swift"
 
 # --- Paths ---
 BUILD_DIR="build"
@@ -18,7 +18,7 @@ ARCHIVE_PATH_IOS_SIMULATOR="${BUILD_DIR}/archives/${SCHEME_NAME}-iOS_Simulator"
 # --- Clean ---
 echo "🧹 Cleaning previous builds..."
 rm -rf "${BUILD_DIR}"
-mkdir -p "${BUILD_DIR}/archives" # Ensure archives directory exists
+mkdir -p "${BUILD_DIR}/archives"
 
 # --- Build Archive for iOS Devices ---
 echo "📦 Archiving for iOS devices..."

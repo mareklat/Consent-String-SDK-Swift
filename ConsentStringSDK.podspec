@@ -9,10 +9,9 @@ Pod::Spec.new do |s|
                        It resides in the 'build' directory of the repository.
                        DESC
   s.homepage         = 'https://github.com/mareklat/Consent-String-SDK-Swift'
-  # s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
+  s.author           = { 'Marek Latuszek' => 'hidden@email.com' }
   s.source           = { :git => 'https://github.com/mareklat/Consent-String-SDK-Swift.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '11.0'
-  s.swift_version = '5.0'
+  s.ios.deployment_target = '12.0'
   s.vendored_frameworks = 'build/Consent_String_SDK_Swift.xcframework'
   s.platform = :ios
 end
