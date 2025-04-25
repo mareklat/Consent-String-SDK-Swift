@@ -1,0 +1,11 @@
+framework module Consent_String_SDK_Swift {
+  umbrella header "Consent_String_SDK_Swift.h"
+  export *
+
+  module * { export * }
+}
+
+module Consent_String_SDK_Swift.Swift {
+  header "Consent_String_SDK_Swift-Swift.h"
+  requires objc
+}

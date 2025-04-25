@@ -1,0 +1,288 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Consent_String_SDK_Swift",
+    "printedName": "Consent_String_SDK_Swift",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Consent_String_SDK_Swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Consent_String_SDK_Swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Consent_String_SDK_Swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentStringError",
+        "printedName": "ConsentStringError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "base64DecodingFailed",
+            "printedName": "base64DecodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Consent_String_SDK_Swift.ConsentStringError.Type) -> Consent_String_SDK_Swift.ConsentStringError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStringError",
+                    "printedName": "Consent_String_SDK_Swift.ConsentStringError",
+                    "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Consent_String_SDK_Swift.ConsentStringError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStringError",
+                        "printedName": "Consent_String_SDK_Swift.ConsentStringError",
+                        "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO20base64DecodingFailedyA2CmF",
+            "mangledName": "$s24Consent_String_SDK_Swift0aB5ErrorO20base64DecodingFailedyA2CmF",
+            "moduleName": "Consent_String_SDK_Swift"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStringError",
+                "printedName": "Consent_String_SDK_Swift.ConsentStringError",
+                "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStringError",
+                "printedName": "Consent_String_SDK_Swift.ConsentStringError",
+                "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24Consent_String_SDK_Swift0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "Consent_String_SDK_Swift",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO9hashValueSivp",
+            "mangledName": "$s24Consent_String_SDK_Swift0aB5ErrorO9hashValueSivp",
+            "moduleName": "Consent_String_SDK_Swift",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO9hashValueSivg",
+                "mangledName": "$s24Consent_String_SDK_Swift0aB5ErrorO9hashValueSivg",
+                "moduleName": "Consent_String_SDK_Swift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s24Consent_String_SDK_Swift0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "Consent_String_SDK_Swift",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24Consent_String_SDK_Swift0aB5ErrorO",
+        "mangledName": "$s24Consent_String_SDK_Swift0aB5ErrorO",
+        "moduleName": "Consent_String_SDK_Swift",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Consent_String_SDK_Swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Consent_String_SDK_Swift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mlatuszek\/Projekty\/Consent-String-SDK-Swift\/Consent String SDK Swift\/ConsentString.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 74,
+      "value": "\"New Consent String Value is not base64 decodable. Throwing away changes.\""
+    },
+    {
+      "filePath": "\/Users\/mlatuszek\/Projekty\/Consent-String-SDK-Swift\/Consent String SDK Swift\/ConsentString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1790,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Users\/mlatuszek\/Projekty\/Consent-String-SDK-Swift\/Consent String SDK Swift\/ConsentString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1822,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/mlatuszek\/Projekty\/Consent-String-SDK-Swift\/Consent String SDK Swift\/ConsentString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3199,
+      "length": 3,
+      "value": "173"
+    },
+    {
+      "filePath": "\/Users\/mlatuszek\/Projekty\/Consent-String-SDK-Swift\/Consent String SDK Swift\/ConsentString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3247,
+      "length": 3,
+      "value": "173"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-4.1.50 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios11.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Consent_String_SDK_Swift
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import Consent_String_SDK_Swift
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum ConsentStringError : Swift.Error {
+  case base64DecodingFailed
+  public static func == (a: Consent_String_SDK_Swift.ConsentStringError, b: Consent_String_SDK_Swift.ConsentStringError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Consent_String_SDK_Swift.ConsentStringError : Swift.Equatable {}
+extension Consent_String_SDK_Swift.ConsentStringError : Swift.Hashable {}
