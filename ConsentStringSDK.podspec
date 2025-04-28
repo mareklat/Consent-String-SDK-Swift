@@ -1,7 +1,7 @@
 # ConsentStringSDK.podspec
 Pod::Spec.new do |s|
   s.name             = 'ConsentStringSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'Fork of IAB Consent String SDK Swift with XCFramework support.'
   s.description      = <<-DESC
                        This is a fork of the official IAB Consent String SDK for Swift,

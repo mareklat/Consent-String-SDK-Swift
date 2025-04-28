@@ -16,4 +16,13 @@ FOUNDATION_EXPORT const unsigned char Consent_String_SDK_SwiftVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Consent_String_SDK_Swift/PublicHeader.h>
 
+//@objc public class ConsentStringAdapter: NSObject {
+//
+//    @objc public func decodeConsentString(_ consentString: String) -> String {
+//        let consentData = ConsentString(consentString: consentString)
+//        // Musisz zwrócić coś prostego, np. String lub NSDictionary
+//        return consentData.description // przykład
+//    }
+//}
+
 
